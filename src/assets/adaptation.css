@@ -1,0 +1,509 @@
+/* для ноутбука */
+@media only screen and (max-width: 1600px) {
+    /* WishList */
+
+    .category-text {
+
+        padding-top: 7vh;
+
+    }
+
+    /* Catigories */
+    .category-title {
+
+        padding-top: 7vh;
+        font-size: 26px;
+    }
+
+    /* Item2 */
+    .wish-card {
+        height: 45.5vh;
+        width: 16vw;
+
+        background-color: white;
+        border-radius: 10px;
+
+        padding-top: 1.5%;
+        text-align: center;
+
+        padding-right: 1%;
+        padding-left: 1%;
+
+    }
+
+    .wish-name {
+
+        margin-bottom: 4%;
+        font-size: 18px;
+
+    }
+    .wish-about {
+
+        padding-right: 3%;
+        font-size: 16px;
+        margin-bottom: 5%;
+
+
+    }
+
+}
+
+/* для ноутбука поменьше */
+@media only screen and (max-width: 1200px) {
+    .wishlist-title-text {
+        padding-top: 2vh;
+
+    }
+
+    .about-wish-list {
+
+        width: 100%;
+        height: 170px;
+
+        display: flex; /* Элементы в одну линию */
+        align-items: center; /* Вертикальное выравнивание, чтобы эл-ты по уровню были - посередине*/
+        justify-content: space-between;
+
+        border: solid rgba(34, 251, 251, 0.71) 2px ;
+        margin-top: 3vh;
+        border-radius: 15px;
+
+    }
+
+    .about-image {
+        width: 18%;
+        height: 45%;
+        background-color: none;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        align-items: center;
+        justify-content: center;
+    }
+
+    .gif-cover {
+        width: 100%;
+        height: 100%;
+
+        align-items: center;
+        background-color: white;
+        border-radius: 15px;
+
+        justify-content: center;
+
+    }
+
+    .about-text {
+        color: #e1e0e0;
+        font-family: Bahnschrift;
+        font-size: 80%;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 130%;
+
+        width: 75%;
+        padding-right: 3%;
+    }
+
+    .about-text p {
+        margin-top: 1em ;
+        margin-bottom: 1em ;
+    }
+    .category-text {
+
+        text-align: center;
+
+        padding-top: 3vh;
+
+    }
+
+    /* Catigories */
+    .category-title {
+        font-family: Arial;
+        font-size: 150%;
+        text-align: center;
+
+
+        padding-top: 2vh;
+
+        padding-bottom: o;
+        margin-bottom: 0;
+    }
+
+    .catalog-items {
+
+        padding-top: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    /* Item2 */
+    .wish-card {
+        height: 225px;
+        width: 16vw;
+
+        background-color: white;
+        border-radius: 10px;
+
+
+        text-align: center;
+
+        padding-right: 1%;
+        padding-left: 1%;
+
+        margin-top: 3vh;
+
+    }
+    .wish-image {
+        width: 75%;
+        aspect-ratio: 1 / 1;
+        background-color: #282828;
+
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 6%;
+
+    }
+
+    .wish-name {
+        color: #171717;
+        text-align: center;
+        font-family: Bahnschrift;
+        font-size: 90%;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+        margin-bottom: 4%;
+
+    }
+    .wish-about {
+        color: #171717;
+        text-align: center;
+        font-family: Bahnschrift;
+        font-size: 80%;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 135%;
+
+        padding-right: 3%;
+
+        margin-bottom: 5%;
+
+    }
+
+
+}
+
+@media only screen and (max-width: 992px) {
+
+}
+@media only screen and (max-width: 768px)  {
+    /* WishList */
+
+
+    .wishlist-title-text {
+        padding-top: 2vh;
+
+    }
+
+    .about-wish-list {
+
+        width: 100%;
+        height: 20%;
+
+        display: flex; /* Элементы в одну линию */
+        align-items: center; /* Вертикальное выравнивание, чтобы эл-ты по уровню были - посередине*/
+        justify-content: space-between;
+
+        border: solid rgba(34, 251, 251, 0.71) 2px ;
+        margin-top: 3vh;
+        border-radius: 15px;
+
+    }
+
+    .about-image {
+        width: 18%;
+        height: 26%;
+        background-color: none;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        align-items: center;
+        justify-content: center;
+    }
+
+    .gif-cover {
+        width: 100%;
+        height: 100%;
+
+        align-items: center;
+        background-color: white;
+        border-radius: 15px;
+
+        justify-content: center;
+
+    }
+
+    .about-text {
+        color: #e1e0e0;
+        font-family: Bahnschrift;
+        font-size: 80%;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 130%;
+
+        width: 75%;
+        padding-right: 3%;
+    }
+
+    .about-text p {
+        margin-top: 1em ;
+        margin-bottom: 1em ;
+    }
+    .category-text {
+
+        text-align: center;
+
+        padding-top: 3vh;
+
+    }
+
+    /* Catigories */
+    .category-title {
+        font-family: Arial;
+        font-size: 150%;
+        text-align: center;
+
+
+        padding-top: 2vh;
+
+        padding-bottom: o;
+        margin-bottom: 0;
+    }
+
+    .catalog-items {
+
+        padding-top: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    /* Item2 */
+    .wish-card {
+        height: 20vh;
+        width: 21vw;
+
+        background-color: white;
+        border-radius: 10px;
+
+
+        text-align: center;
+
+        padding-right: 1%;
+        padding-left: 1%;
+
+        margin-top: 1.5vh;
+
+    }
+    .wish-image {
+        width: 75%;
+        aspect-ratio: 1 / 1;
+        background-color: #282828;
+
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 6%;
+
+    }
+
+    .wish-name {
+        color: #171717;
+        text-align: center;
+        font-family: Bahnschrift;
+        font-size: 90%;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+        margin-bottom: 4%;
+
+    }
+    .wish-about {
+        color: #171717;
+        text-align: center;
+        font-family: Bahnschrift;
+        font-size: 80%;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 135%;
+
+        padding-right: 3%;
+
+        margin-bottom: 5%;
+
+    }
+}
+
+/* мобильные устройства от 320 до 480x */
+@media only screen and (max-width: 480px)  {
+    .wishlist-body {
+        width: 90vw;
+        height: 100vh;
+        margin: auto;
+        margin-top: 5vh;
+    }
+
+    /* WishList */
+
+    .wishlist-title {
+        font-size: 36px;
+    }
+
+    .wishlist-title-text {
+        font-size: 13px;
+        padding-top: 0.5vh;
+
+    }
+
+    .about-wish-list {
+
+        width: 100%;
+        height: 310px;
+
+        border: none ;
+
+        display: block; /* Элементы в одну линию */
+        align-items: center; /* Вертикальное выравнивание, чтобы эл-ты по уровню были - посередине*/
+        justify-content: space-between;
+
+        margin-top: 1.5vh;
+        border-radius: 15px;
+
+        margin-bottom: 9px;
+
+    }
+
+    .about-image {
+        width: 45%;
+        height: 23%;
+        background-color: none;
+
+        margin-right: auto;
+        margin-left: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-text {
+        color: #e1e0e0;
+        font-family: Bahnschrift;
+        font-size: 80%;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 130%;
+
+        width: 100%;
+    }
+
+
+    .category-text {
+        color: #e1e0e0;
+        font-family: Bahnschrift;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+        padding-top: 0.5vh;
+
+    }
+
+    /* Catigories */
+    .category-title {
+        font-family: Arial;
+        font-size: 140%;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+
+        background: linear-gradient(90deg, #7C46EF 1.68%, rgba(34, 251, 251, 0.71) 67.65%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+
+    }
+
+    .catalog-items {
+        display: flex;flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    /* Item2 */
+    .wish-card {
+        height: 300px;
+        width: 220px;
+
+        background-color: white;
+        border-radius: 10px;
+
+        padding-top: 6%;
+        text-align: center;
+
+        padding-right: 4%;
+        padding-left: 4%;
+
+        margin-top: 1.5vh;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .wish-image {
+        width: 80%;
+        aspect-ratio: 1 / 1;
+        background-color: #282828;
+
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 7%;
+        margin-top: ;
+
+    }
+
+    .wish-name {
+        color: #171717;
+        text-align: center;
+        font-family: Bahnschrift;
+        font-size: 130%;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+        margin-bottom: 5%;
+
+    }
+    .wish-about {
+        color: #171717;
+        text-align: center;
+        font-family: Bahnschrift;
+        font-size: 110%;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 135%;
+
+        margin-bottom: 6%;
+
+
+    }
+}

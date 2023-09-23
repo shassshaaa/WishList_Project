@@ -1,0 +1,196 @@
+/* WishList */
+.container {
+  height: 100%;
+  width: 100%;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wishlist-title {
+  text-align: center;
+  font-family: Arial;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+
+  background: linear-gradient(270deg, #7C46EF 33.81%, rgba(34, 251, 251, 0.71) 58.11%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.wishlist-title-text {
+  color: #e1e0e0;
+  text-align: center;
+  font-family: Bahnschrift;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  padding-top: 2vh;
+
+}
+
+.about-wish-list {
+
+  width: 100%;
+  height: 25%;
+
+  display: flex; /* Элементы в одну линию */
+  align-items: center; /* Вертикальное выравнивание, чтобы эл-ты по уровню были - посередине*/
+  justify-content: space-between;
+
+  border: solid rgba(34, 251, 251, 0.71) 2px ;
+  margin-top: 5vh;
+  border-radius: 15px;
+
+}
+
+.about-image {
+  width: 18%;
+  height: 75%;
+  background-color: none;
+
+  margin-left: 3%;
+  align-items: center;
+  justify-content: center;
+}
+
+.gif-cover {
+  width: 100%;
+  height: 100%;
+
+  align-items: center;
+  background-color: white;
+  border-radius: 15px;
+
+  justify-content: center;
+
+}
+
+.gif-container {
+  aspect-ratio: 1 / 1;
+  height: 85%;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  padding-top: 5%;
+
+
+}
+
+.gif-cat img {
+  width: 100%;
+  height: 100%;
+}
+
+.about-text {
+  color: #e1e0e0;
+  font-family: Bahnschrift;
+  font-size: 100%;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 130%;
+
+  width: 75%;
+  padding-right: 3%;
+}
+
+.about-text p {
+  margin-top: 1em ;
+  margin-bottom: 1em ;
+}
+
+
+.category-text {
+  color: #e1e0e0;
+  font-family: Bahnschrift;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  padding-top: 5vh;
+
+}
+
+/* Catigories */
+.category-title {
+  font-family: Arial;
+  font-size: 200%;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+
+  background: linear-gradient(90deg, #7C46EF 1.68%, rgba(34, 251, 251, 0.71) 67.65%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+
+  padding-top: 9vh;
+}
+
+.catalog-items {
+  padding-top: 3vh;
+  display: flex;flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/* Item2 */
+.wish-card {
+  height: 40vh;
+  width: 15vw;
+
+  background-color: white;
+  border-radius: 10px;
+
+  padding-top: 1.5%;
+  text-align: center;
+
+  padding-right: 0.5%;
+  padding-left: 0.5%;
+
+}
+.wish-image {
+  width: 85%;
+  aspect-ratio: 1 / 1;
+  background-color: #282828;
+
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 7%;
+
+}
+
+.wish-name {
+  color: #171717;
+  text-align: center;
+  font-family: Bahnschrift;
+  font-size: 130%;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  margin-bottom: 5%;
+
+}
+.wish-about {
+  color: #171717;
+  text-align: center;
+  font-family: Bahnschrift;
+  font-size: 110%;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 135%;
+
+  margin-bottom: 6%;
+
+
+}
